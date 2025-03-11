@@ -1,0 +1,18 @@
+.{
+    .name = .nanopb,
+    .version = "0.0.0",
+    .fingerprint = 0x339fe4dbf25b21c8, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.14.0",
+    .dependencies = .{
+        .nanopb = .{
+            .url = "git+https://github.com/nanopb/nanopb?ref=0.4.9.1#cad3c18ef15a663e30e3e43e3a752b66378adec1",
+            .hash = "N-V-__8AAICJKABy-UAs4DC7b9y5IYGo9oikvDkYpvL9fnhc",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+        "README.md",
+    },
+}
